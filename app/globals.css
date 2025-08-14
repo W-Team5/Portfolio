@@ -9,6 +9,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-jetbrains: var(--font-jetbrains);
+  --font-poppins: var(--font-poppins);
   --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
   --animate-first: moveVertical 30s ease infinite;
   --animate-second: moveInCircle 20s reverse infinite;
@@ -87,4 +88,5 @@ body {
 
 html {
   scroll-behavior: smooth;
+  /*pointer-events: none;*/
 }
